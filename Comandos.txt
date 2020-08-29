@@ -1,0 +1,38 @@
+# Converter para exe
+pyinstaller -w -F "arquivo.py"
+
+#PIP, fica na seguinte pasta
+C:\Python34\Scripts
+
+#caminho do python pode ficar
+C:\Users\username\AppData\Local\Programs\Python\Python36
+
+#Instalar selenium
+pip install selenium
+
+#Instalar BeautifulSoup
+pip install BeautifulSoup4
+
+#Para usar o ChormeWebDrive, tem que adicionar nas variaveis do sistema (Windows)
+#Meu Computador --> Propriedades --> Configurações Avançadas de Sistema --> Variaveis do ambiente --> Em Váriaveis do Sistema clica em Path e Editar --> Novo e colocar o caminho ex: C:\Users\user\Downloads\Cursos\python\Pacotes Instalacao\chromedriver_win32
+
+#Atualizando o PIP
+python -m pip install --upgrade pip
+
+#Biblioteca para manipular Excel - Leitura
+pip install xlrd
+
+#Biblioteca para manipular Excel - Escrita
+pip install xlwt
+pip install xlsxwriter
+
+#Biblioteca para DataAnalysis Pandas
+pip install pandas
+
+#Biblioteca para Conectar DB (SQL Server)
+pip install pyodbc
+
+
+
+
+
